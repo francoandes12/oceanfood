@@ -66,6 +66,7 @@ menu ul li a:hover{
     width: 100%;
     margin: 20px;
     height: 100%;
+    word-wrap: break-word;
 }
 .hijo img{
     width: 100%;
@@ -79,7 +80,6 @@ menu ul li a:hover{
 }
 .footerhijo{
     justify-content: center;
-    background-color: #46AFFF;
 }
 #up{
     background-color: #B3700C;
