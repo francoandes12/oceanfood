@@ -29,6 +29,29 @@
     <div class="contenedor">
         <div class="hijo">
             <h2>O llene el siguiente formulario:</h2>
+            <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="ingrese su nombre" autofocus>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="email@ejemplo.com">
+                <br>
+                <label for="number">Telefono</label>
+                <input type="tel" placeholder="555 555 1211">
+                <br>
+                <label for="country">Pais</label>
+                <input type="text" list="pais">
+                <datalist id="pais">
+                    <option value="Argentina"></option>
+                    <option value="Brasil"></option>
+                    <option value="Chile"></option>
+                </datalist>
+                <br>
+                <label for="msg">Escribe tu mensaje</label>
+                <input type="text" style="width:90%; height: 100px;">
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
         </div>
     </div>
     <hr>
